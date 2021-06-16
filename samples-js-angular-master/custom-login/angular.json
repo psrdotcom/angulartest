@@ -54,11 +54,12 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
             "browserTarget": "custom-login:build",
-            "port": 8080
+            "port": 443
           },
           "configurations": {
             "production": {
-              "browserTarget": "custom-login:build:production"
+              "browserTarget": "custom-login:build:production",
+              "port": 443
             }
           }
         },
