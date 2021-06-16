@@ -10,11 +10,11 @@ If you haven't done so already, register for a free account at [developer.okta.c
 
 Register your application by selecting **Applications** > **Add Application**. On the next screen, choose **Single Page App** and click **Next**.
 
-On the following screen, edit the application settings. For these sample applications we are using port number 8080. Configure your app as follows:
+On the following screen, edit the application settings. For these sample applications we are using port number 443. Configure your app as follows:
 
-* **Base URI**: `http://localhost:8080`
-* **Login redirect URI**: `http://localhost:8080/login/callback` 
-* **Logout redirect URI**: `http://localhost:8080` 
+* **Base URI**: `https://okta.psrssi.xyz`
+* **Login redirect URI**: `https://okta.psrssi.xyz/login/callback` 
+* **Logout redirect URI**: `https://okta.psrssi.xyz` 
 
 Once you have completed the form, you will be given a **client ID**. You will also need the **issuer** value for your Okta org. 
 

@@ -5,7 +5,7 @@ export default {
   oidc: {
     clientId: `${CLIENT_ID}`,
     issuer: `${ISSUER}`,
-    redirectUri: 'http://localhost:8080/login/callback',
+    redirectUri: 'https://okta.psrssi.xyz/login/callback',
     scopes: ['openid', 'profile', 'email'],
     testing: {
       disableHttpsCheck: `${OKTA_TESTING_DISABLEHTTPSCHECK}`
